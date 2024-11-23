@@ -85,5 +85,17 @@ namespace ToyRobotChallengeTest
             robot.Move();
             Assert.AreEqual("2,1,EAST", robot.Report());
         }
+
+        [Test]
+        public void TestWrongPlace()
+        {
+        
+            robot.Place(5, 1, Direction.NORTH);
+            robot.Right();
+            robot.Move();
+            Assert.AreEqual("Robot is not yet placed.", robot.Report());
+        }
+
+        
     }
 }

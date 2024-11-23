@@ -7,7 +7,9 @@ namespace ToyRobotChallenge
         static void Main(string[] args)
         {
             Console.WriteLine("Let's go my robot.");
-            Console.WriteLine("Please using below command to control the robot.");
+            Console.WriteLine("Please using below commands to control the robot.");
+            Console.WriteLine("X and Y should be number from 0 to 4.");
+            Console.WriteLine("F must be NORTH,SOUTH,WEST and EAST");
             Console.WriteLine("PLACE X,Y,F");
             Console.WriteLine("MOVE");
             Console.WriteLine("LEFT");
