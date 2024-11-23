@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/komsant.tivongclbs.co.th/.dotnet/store/|arch|/|tfm|",
+      "/Users/komsant.tivongclbs.co.th/.nuget/packages"
+    ]
+  }
+}
