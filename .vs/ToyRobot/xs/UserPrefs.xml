@@ -1,19 +1,10 @@
 ﻿<Properties StartupConfiguration="{9DFAA968-3674-4025-9474-673F03D957EC}|Default">
   <MonoDevelop.Ide.ItemProperties.ToyRobotChallenge PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToyRobot/ToyRobot.cs">
-    <Files>
-      <File FileName="ToyRobot/Program.cs" Line="1" Column="1" />
-      <File FileName="ToyRobot/ToyRobot.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ToyRobot" expanded="True">
-            <Node name="ToyRobotChallenge" expanded="True">
-              <Node name="ToyRobot.cs" selected="True" />
-            </Node>
-            <Node name="ToyRobotChallengeTest" expanded="True" />
-          </Node>
+          <Node name="ToyRobot" expanded="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">

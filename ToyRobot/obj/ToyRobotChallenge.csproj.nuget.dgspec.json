@@ -14,7 +14,7 @@
         "outputPath": "/Users/komsant.tivongclbs.co.th/Projects/ToyRobotExercise/toyrobot/ToyRobot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/komsant.tivongclbs.co.th/.config/NuGet/NuGet.Config"
+          "/Users/komsant.tivongclbs.co.th/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

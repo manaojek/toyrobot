@@ -1,0 +1,5 @@
+/Users/komsant.tivongclbs.co.th/Projects/ToyRobotExercise/toyrobot/ToyRobot/bin/Release/netcoreapp3.1/publish/ToyRobotChallenge
+/Users/komsant.tivongclbs.co.th/Projects/ToyRobotExercise/toyrobot/ToyRobot/bin/Release/netcoreapp3.1/publish/ToyRobotChallenge.dll
+/Users/komsant.tivongclbs.co.th/Projects/ToyRobotExercise/toyrobot/ToyRobot/bin/Release/netcoreapp3.1/publish/ToyRobotChallenge.deps.json
+/Users/komsant.tivongclbs.co.th/Projects/ToyRobotExercise/toyrobot/ToyRobot/bin/Release/netcoreapp3.1/publish/ToyRobotChallenge.runtimeconfig.json
+/Users/komsant.tivongclbs.co.th/Projects/ToyRobotExercise/toyrobot/ToyRobot/bin/Release/netcoreapp3.1/publish/ToyRobotChallenge.pdb
