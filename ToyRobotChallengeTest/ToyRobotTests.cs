@@ -17,7 +17,7 @@ namespace ToyRobotChallengeTest
         [Test]
         public void TestInitialReport()
         {
-            Assert.AreEqual("Robot is not yet placed.", robot.Report());
+            Assert.AreEqual("Robot has not placed yet.", robot.Report());
         }
 
         [Test]
@@ -31,7 +31,7 @@ namespace ToyRobotChallengeTest
         public void TestInvalidPlace()
         {
             robot.Place(-1, 0, Direction.EAST);
-            Assert.AreEqual("Robot is not yet placed.", robot.Report());
+            Assert.AreEqual("Robot has not placed yet.", robot.Report());
         }
 
         [Test]
@@ -77,7 +77,7 @@ namespace ToyRobotChallengeTest
         }
 
         [Test]
-        public void TestWrongSequentialCommands()
+        public void TestInvalidSequentialCommands()
         {
             robot.Move();
             robot.Place(1, 1, Direction.NORTH);
@@ -87,15 +87,24 @@ namespace ToyRobotChallengeTest
         }
 
         [Test]
-        public void TestWrongPlace()
+        public void TestInvalidPlaceWithSequentialCommands()
         {
         
             robot.Place(5, 1, Direction.NORTH);
             robot.Right();
             robot.Move();
-            Assert.AreEqual("Robot is not yet placed.", robot.Report());
+            Assert.AreEqual("Robot has not placed yet.", robot.Report());
         }
 
-        
+        [Test]
+        public void TestLeftRotationInvalidMove()
+        {
+            robot.Place(0, 1, Direction.NORTH);
+            robot.Left();
+            robot.Move();
+            Assert.AreEqual("0,1,WEST", robot.Report());
+        }
+
+
     }
 }

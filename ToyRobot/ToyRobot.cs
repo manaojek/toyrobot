@@ -91,7 +91,7 @@ namespace ToyRobotChallenge
         public string Report()
         {
             if (Facing == null)
-                return "Robot is not yet placed.";
+                return "Robot has not placed yet.";
 
             return $"{X},{Y},{Facing}";
         }
