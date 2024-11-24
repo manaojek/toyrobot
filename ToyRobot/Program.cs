@@ -40,7 +40,7 @@ namespace ToyRobotChallenge
                     robot.Right();
                 } else if(robotCommands.Contains("REPORT"))
                 {
-                    Console.WriteLine(robot.Report());
+                    Console.WriteLine("Output: " +robot.Report());
                 }
 
             }
