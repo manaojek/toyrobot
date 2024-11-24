@@ -19,11 +19,24 @@ falling from the table must be prevented and validated movement commands.
 </ol>
 <h3>Set up and run ToyRobotChallenge</h3>
 <p>
-  You will see the program.cs in ToyRobotChallenge project.You can run it from Visual Studio or you are able to build the project and publish it to the folder and run it.
+  You will see the program.cs in ToyRobotChallenge project.You can run it from Visual Studio or you are able to build the project and publish it to the folder and run it.Once you have run it. You will see the display like below.
+<b>
+</br>
+</br>Let's go my robot.
+</br>Please using below commands to control the robot.
+</br>X and Y should be number from 0 to 4.
+</br>F must be NORTH,SOUTH,WEST and EAST
+</br>PLACE X,Y,F
+</br>MOVE
+</br>LEFT
+</br>RIGHT
+</br>REPORT
+</br>CTRL C to stop the program.
+</b>
 </p>
 <h3>Set up and run ToyRobotChallengeTest</h3>
 <p>
-  You will see the ToyRobotTests.cs in ToyRobotChallengeTest project.You should build it. You are able to run unit test by right clicking on ToyRobotTests.cs then you will see run Tests menu. 
+  You will see the ToyRobotTests.cs in ToyRobotChallengeTest project.Firstly you should build it. You are able to run unit test by right clicking on ToyRobotTests.cs then you will see <b>Run Tests</b> menu. Once you have done it,you will see the test resulst in <b>Test Results</b> console.
 </p>
 </p>
 
